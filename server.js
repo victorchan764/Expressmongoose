@@ -10,7 +10,6 @@ mongoose.connect('mongodb://localhost:27017/test')
     console.log('Not Connected')
 })
 
-
 app.get("/", (req, res)=>{
     res.send("This is the Homepage");
 })
